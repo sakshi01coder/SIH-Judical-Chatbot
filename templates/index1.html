@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nyaya Bot</title>
+    <script src="{{ url_for('static', filename='js/index.js') }}" defer></script>
+
+</head>
+<body>
+    <h1>Welcome to Nyaya Bot</h1>
+    <form id="nyaya-form">
+        <label for="user-query">Ask something:</label>
+        <input type="text" id="user-query" placeholder="Tell me about the Department of Justice" />
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="doj-content">Loading Department of Justice information...</div>
+</body>
+</html>
