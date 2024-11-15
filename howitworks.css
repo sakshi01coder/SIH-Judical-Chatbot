@@ -1,0 +1,10 @@
+.how-it-works {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('images/screenshot.png') no-repeat center center; /* Replace with the path to your screenshot */
+    background-size: cover; /* Adjusts the image to cover the entire section */
+    min-height: 600px; /* Adjust height based on your layout needs */
+    padding: 50px 0;
+    position: relative;
+}

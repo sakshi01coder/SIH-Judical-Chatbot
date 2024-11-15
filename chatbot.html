@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NyayaBot Chat Interface</title>
+    <link rel="stylesheet" href="chatbot.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <h2>NyayaBOT</h2>
+                <button class="new-chat-btn">+ New Chat</button>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Search Chats...">
+            </div>
+            <div class="chat-list">
+                <div class="chat-item">
+                    <div class="chat-text">Civil Suit</div>
+                    <button class="delete-btn">&#128465;</button>
+                </div>
+            </div>
+            <div class="footer">
+                <a href="#">Updates</a>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">FAQs</a>
+                <div class="user-info">
+                    <img src="user-avatar.png" alt="User Avatar">
+                    <span>Jane Doe</span>
+                    <button class="logout-btn">Log Out</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="chat-area">
+            <div class="chat-header">
+                <button class="menu-btn">☰</button>
+                <button class="upload-btn">&#8689;</button>
+                <button class="delete-btn">&#128465;</button>
+            </div>
+            <div class="chat-content">
+                <div class="chat-message">
+                    <div class="message-header">How do I file a civil suit?</div>
+                    <div class="message-body">
+                        <p>To file a civil suit, start by preparing a detailed complaint that outlines your legal claims...</p>
+                    </div>
+                </div>
+                <div class="chat-message">
+                    <div class="message-header">How can I apply for a grant from the DOJ?</div>
+                    <div class="message-body">
+                        <p>To apply for a Department of Justice (DOJ) grant, follow these detailed steps...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" placeholder="Your message here...">
+                <button class="send-btn">Enter</button>
+            </div>
+        </div>
+    </div>
+    <script src="chatbot.js"></script>
+</body>
+</html>
